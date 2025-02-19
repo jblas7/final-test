@@ -2,7 +2,7 @@ name: CI del backend a Dockerhub
 
 on:
   push:
-    branches: [ develop ] 
+    branches: [ develop, main ] 
 
 jobs:
   build-and-push:
