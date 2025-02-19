@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Traer los cambios
+      - name: Archivos del back
         uses: actions/checkout@v2
 
       - name: Login de Docker Hub
